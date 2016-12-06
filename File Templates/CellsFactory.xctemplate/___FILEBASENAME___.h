@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-extern NSString * const CellReuseIdentifier;
+extern NSString * const ___FILEBASENAMEASIDENTIFIER___ReuseIdentifier;
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
+@interface ___FILEBASENAMEASIDENTIFIER___CellsFactory : NSObject
 
 + (NSString*)cellIdentifierForItemType:(NSInteger)type;
 + (Class)cellClassForItemType:(NSInteger)type;

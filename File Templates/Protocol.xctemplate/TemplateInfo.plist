@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>An empty Objective-C file, category, protocol or extension.</string>
+	<key>Summary</key>
+	<string>An empty Objective-C file</string>
+	<key>SortOrder</key>
+	<string>31</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Protocol name:</string>
+			<key>Description</key>
+			<string>The name of the protocol to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>extendedProtocol</string>
+			<key>Name</key>
+			<string>Protocol:</string>
+			<key>Description</key>
+			<string>Parent protocol</string>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+</dict>
+</plist>

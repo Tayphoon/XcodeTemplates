@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TCTableViewCell.h"
+#import "TCTableViewActionCell.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : UITableViewCell <TCTableViewCell>
+@interface ___FILEBASENAMEASIDENTIFIER___ : UITableViewCell <TCTableViewActionCell>
 
 @property (nonatomic, strong) id item;
+@property (nonatomic, weak) id delegate;
 
 @end

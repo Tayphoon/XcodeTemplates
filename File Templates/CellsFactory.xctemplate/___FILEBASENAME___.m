@@ -8,9 +8,9 @@
 
 #import "___FILEBASENAME___.h"
 
-NSString * const CellReuseIdentifier = @"CellReuseIdentifier";
+NSString * const ___FILEBASENAMEASIDENTIFIER___ReuseIdentifier = @"___FILEBASENAMEASIDENTIFIER___ReuseIdentifier";
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
+@implementation ___FILEBASENAMEASIDENTIFIER___CellsFactory
 
 + (NSString*)cellIdentifierForItemType:(NSInteger)type {
     static NSDictionary * _cellsIdentifiers = nil;
