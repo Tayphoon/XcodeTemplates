@@ -7,8 +7,11 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#import "___VARIABLE_extendedProtocol___.h"
+#import <Foundation/Foundation.h>
 
-@protocol ___FILEBASENAMEASIDENTIFIER___ <___VARIABLE_extendedProtocol___>
+@interface ___VARIABLE_viperModuleName:identifier___Assembly : NSObject
+
+- (UIViewController*)moduleView;
 
 @end
+

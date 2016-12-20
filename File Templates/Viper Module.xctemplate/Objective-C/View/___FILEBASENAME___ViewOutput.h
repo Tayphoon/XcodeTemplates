@@ -1,5 +1,4 @@
 //
-//
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
@@ -7,8 +6,11 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#import "___VARIABLE_extendedProtocol___.h"
+#import <Foundation/Foundation.h>
 
-@protocol ___FILEBASENAMEASIDENTIFIER___ <___VARIABLE_extendedProtocol___>
+@protocol ___VARIABLE_viperModuleName:identifier___ViewOutput <NSObject>
+
+- (void)setupView;
 
 @end
+
