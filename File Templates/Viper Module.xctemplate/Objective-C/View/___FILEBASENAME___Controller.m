@@ -21,10 +21,10 @@
 	[super viewDidLoad];
     
     _activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    _activityIndicator.hidesWhenStopped = YES;
-    _activityIndicator.backgroundColor = [UIColor clearColor];
-    _activityIndicator.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.view addSubview:_activityIndicator];
+    self.activityIndicator.hidesWhenStopped = YES;
+    self.activityIndicator.backgroundColor = [UIColor clearColor];
+    self.activityIndicator.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:self.activityIndicator];
     [self configureActivityIndicatorLayoutConstraints];
 
 	[self.output setupView];

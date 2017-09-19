@@ -11,7 +11,7 @@
 	<key>SortOrder</key>
 	<string>8</string>
 	<key>DefaultCompletionName</key>
-	<string>MyClass</string>
+	<string>Service</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -112,7 +112,6 @@
 			<string>Objective-C</string>
 			<key>Values</key>
 			<array>
-				<string>Swift</string>
 				<string>Objective-C</string>
 			</array>
 			<key>MainTemplateFiles</key>
