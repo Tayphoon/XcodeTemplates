@@ -9,6 +9,6 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol ___FILEBASENAMEASIDENTIFIER___Service <NSObject>
+@protocol ___FILEBASENAMEASIDENTIFIER___ <NSObject>
 
 @end

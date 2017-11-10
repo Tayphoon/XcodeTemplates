@@ -6,13 +6,13 @@
 //___COPYRIGHT___
 //
 
-#import "___FILEBASENAME___ServiceAssembly.h"
-#import "___FILEBASENAME___Service___VARIABLE_implementationPrefix___.h"
+#import "___FILEBASENAMEASIDENTIFIER___.h"
+#import "___VARIABLE_serviceName___Service___VARIABLE_implementationPrefix___.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___ServiceAssembly
+@implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (id<___FILEBASENAMEASIDENTIFIER___Service>)___FILEBASENAMEASIDENTIFIER___Service {
-    return [[___FILEBASENAME___Service___VARIABLE_implementationPrefix___ alloc] init];
+- (id<___VARIABLE_serviceName___Service>)service {
+    return [[___VARIABLE_serviceName___Service___VARIABLE_implementationPrefix___ alloc] init];
 }
 
 @end

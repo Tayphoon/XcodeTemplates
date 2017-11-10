@@ -9,8 +9,8 @@
 
 ___IMPORTHEADER_cocoaTouchSubclass___
 
-#import "___FILEBASENAMEASIDENTIFIER___Service.h"
+#import "___VARIABLE_serviceName___Service.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___Service___VARIABLE_implementationPrefix___ : ___VARIABLE_cocoaTouchSubclass___<___FILEBASENAMEASIDENTIFIER___Service>
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___<___VARIABLE_serviceName___Service>
 
 @end

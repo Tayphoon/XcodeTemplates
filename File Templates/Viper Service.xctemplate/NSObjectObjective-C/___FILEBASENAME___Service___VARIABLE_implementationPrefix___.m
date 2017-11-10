@@ -8,8 +8,8 @@
 //
 
 
-#import "___FILEBASENAME___Service___VARIABLE_implementationPrefix___.h"
+#import "___FILEBASENAMEASIDENTIFIER___.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___Service___VARIABLE_implementationPrefix___
+@implementation ___FILEBASENAMEASIDENTIFIER___
 
 @end

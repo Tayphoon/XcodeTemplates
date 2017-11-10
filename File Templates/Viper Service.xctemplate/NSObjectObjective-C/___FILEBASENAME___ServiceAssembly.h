@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import "___FILEBASENAMEASIDENTIFIER___Service.h"
+#import "___VARIABLE_serviceName___Service.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ServiceAssembly : NSObject
+@interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
 
-- (id<___FILEBASENAMEASIDENTIFIER___Service>)___FILEBASENAMEASIDENTIFIER___Service;
+- (id<___VARIABLE_serviceName___Service>)service;
 
 @end

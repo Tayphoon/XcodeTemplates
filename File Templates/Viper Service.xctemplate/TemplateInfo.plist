@@ -10,8 +10,6 @@
 	<string>A Cocoa Touch class</string>
 	<key>SortOrder</key>
 	<string>8</string>
-	<key>DefaultCompletionName</key>
-	<string>Service</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -21,7 +19,7 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>productName</string>
+			<string>serviceName</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
@@ -32,6 +30,14 @@
 			<string>text</string>
 			<key>NotPersisted</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_serviceName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
 		</dict>
 		<dict>
 			<key>Identifier</key>
