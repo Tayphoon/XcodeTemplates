@@ -34,6 +34,14 @@
 			<true/>
 		</dict>
 		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_protocolName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
 			<key>Identifier</key>
 			<string>cocoaTouchSubclass</string>
 			<key>Required</key>
