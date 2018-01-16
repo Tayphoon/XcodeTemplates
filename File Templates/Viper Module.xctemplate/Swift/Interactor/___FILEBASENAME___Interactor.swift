@@ -13,8 +13,8 @@ import Foundation
  *	
  */
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: NSObject, ___FILEBASENAMEASIDENTIFIER___InteractorInput {
+class ___VARIABLE_viperModuleName:identifier___Interactor: ___VARIABLE_viperModuleName:identifier___InteractorInput {
 
-	weak var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?
+	weak var output: ___VARIABLE_viperModuleName:identifier___InteractorOutput?
 
 }

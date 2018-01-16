@@ -8,6 +8,6 @@
 
 import Foundation
 
-@objc protocol ___FILEBASENAMEASIDENTIFIER___RouterInput {
+protocol ___VARIABLE_viperModuleName:identifier___InteractorOutput : class {
 	
 }

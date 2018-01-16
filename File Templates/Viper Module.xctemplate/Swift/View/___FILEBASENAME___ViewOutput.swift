@@ -7,7 +7,6 @@
 //
 import Foundation
 
-@objc protocol ___FILEBASENAMEASIDENTIFIER___ViewOutput {
-	
+protocol ___VARIABLE_viperModuleName:identifier___ViewOutput {
 	func setupView()
 }

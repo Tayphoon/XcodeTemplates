@@ -13,11 +13,13 @@ import UIKit
  *	
  */
 
-class ___FILEBASENAMEASIDENTIFIER___View: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewInput {
+class ___VARIABLE_viperModuleName:identifier___ViewController: UIViewController, ___VARIABLE_viperModuleName:identifier___ViewInput {
 	
-	var output: ___FILEBASENAMEASIDENTIFIER___ViewOutput?
+	var output: ___VARIABLE_viperModuleName:identifier___ViewOutput?
 
 	override func viewDidLoad() {
         super.viewDidLoad()
+        
+        output?.setupView()
     }
 }

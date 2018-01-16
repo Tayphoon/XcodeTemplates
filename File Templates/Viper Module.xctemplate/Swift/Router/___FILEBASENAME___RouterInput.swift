@@ -8,11 +8,6 @@
 
 import Foundation
 
-/**
- *  Router 
- *	
- */
-
-class ___FILEBASENAMEASIDENTIFIER___Router: NSObject, ___FILEBASENAMEASIDENTIFIER___RouterInput {
+protocol ___VARIABLE_viperModuleName:identifier___RouterInput {
 	
 }
