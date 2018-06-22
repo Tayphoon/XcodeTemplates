@@ -1,0 +1,148 @@
+/* 
+  Localizable.strings
+  Stolichki
+
+  Created by Oleg Tretyakov on 12/25/17.
+  Copyright © 2017 Inostudio. All rights reserved.
+*/
+
+/**
+ Naming convention
+ 
+ Template:
+ [<modules_common_mane> | general].<module>.<type>.<sybtype>...<name>
+ 
+ All parts can be omitted, except for fist and last. Minimal informative template: general.<name>
+ 
+ Example:
+ "auth.login.ready" = "Ready";
+ - group of auth modules with specific login module ready string to localization
+ "general.ok" = "OK";
+ - common localization string 'ok'
+ */
+
+// MARK: - General localizable strings
+
+"general.ok" = "ОК";
+"general.no" = "Нет";
+"general.yes" = "Да";
+
+"general.ready" = "Готово";
+"general.further" = "ДАЛЕЕ";
+"general.continue" = "Продолжить";
+
+// MARK: - Auth story modiles localizable strings
+
+"auth.countryCore" = "+7";
+
+"auth.registration.title" = "Регистрация";
+"auth.registration.placeholder.phone" = "Введите номер телефона";
+"auth.registration.placeholder.name" = "Имя*";
+"auth.registration.placeholder.name" = "Имя*";
+"auth.registration.checkbox.agreement" = "Я согласен на обработку моих персональных данных*";
+"auth.registration.checkbox.advertising" = "Я согласен на получение рекламной sms — рассылки";
+
+"auth.registration.error.emptyName" = "Укажите имя";
+"auth.registration.error.shortName" = "Слишком короткое имя";
+
+"auth.login.code.placeholder" = "Введите код";
+"auth.login.code.prompt" = "На ваш номер телефона выслан sms-код для подтверждения входа";
+"auth.login.code.lifeTime" = "Срок жизни кода";
+"auth.login.code.resend" = "ОТПРАВИТЬ КОД ПОВТОРНО";
+
+// MARK: - Main story modiles localizable strings
+
+"pharmacy.title" = "Аптеки";
+
+"pharmacy.nearest.title" = "БЛИЖАЙШАЯ АПТЕКА";
+"pharmacy.nearest.prew" = "ПРЕДЫДУЩАЯ АПТЕКА";
+"pharmacy.nearest.next" = "СЛЕДУЮЩАЯ АПТЕКА";
+
+// MARK: - Menu
+
+"menu.contact.callCenter" = "СПРАВОЧНАЯ";
+"menu.contact.viber" = "VIBER";
+"menu.contact.whatsapp" = "WHATSAPP";
+
+// TODO: - Need Refactor
+
+"general.filter.reset" = "СБРОСИТЬ";
+
+// MARK: -  Pharmacies Search
+"search.placeholder" = "введите улицу или метро";
+
+// MARK: -  Pharmacies
+"pharmacies.tabItem.map" = "КАРТА";
+"pharmacies.tabItem.list" = "СПИСОК";
+
+// MARK: - City
+"city.title" = "Город";
+
+// MARK: - Pharmacy filter
+"pharmacy.filter.parameters" = "Параметры";
+"pharmacy.filter.city" = "Город";
+"pharmacy.filter.address" = "Адрес";
+"pharmacy.filter.twentyfourhour" = "Круглосуточные аптеки";
+"pharmacy.filter.opened" = "Открыты в ближайшее время (1 час)";
+"pharmacy.filter.metro" = "Рядом с метро";
+
+// MARK: - Pharmacy Details
+"pharmacy.details.description.label" = "Описание:";
+"pharmacy.details.goods.label" = "Товары в аптеке";
+"pharmacy.details.stocks.label" = "Акции в аптеке";
+"pharmacy.details.call.button" = "ПОЗВОНИТЬ";
+"pharmacy.details.scheme.button" = "СХЕМА МЕТРО";
+"pharmacy.details.route.button" = "ПРОЛОЖИТЬ МАРШРУТ";
+
+// MARK: -  Login
+"login.label.phone" = "Введите свой номер телефона для входа.";
+"login.label.help" = "Вы можете зарегистрироваться при отсутствии аккаунта или продолжить работу, пропустив данный этап.";
+"login.button.enter" = "ВОЙТИ";
+"login.button.continue" = "ПРОДОЛЖИТЬ БЕЗ РЕГИСТРАЦИИ";
+"login.button.register" = "ЗАРЕГИСТРИРОВАТЬСЯ";
+"login.error.phoneNumberEmpty" = "Введите номер телефона, чтобы продолжить";
+
+// MARK: -  Phone Verification
+
+"phoneVerification.code.placeholder" = "Введите код";
+"phoneVerification.label.help" = "На ваш номер телефона выслан sms-код для подтверждения входа";
+"phoneVerification.label.code" = "Срок жизни кода";
+"phoneVerification.button.done" = "ГОТОВО";
+"phoneVerification.button.resend" = "ОТПРАВИТЬ КОД ПОВТОРНО";
+
+// MARK: - Verification Limit Reached
+
+"verificationLimitReached.label.help" = "Вы временно исчерпали количество попыток ввода кода, пожалуйста проверьте указанный номера телефона.";
+"verificationLimitReached.button.support" = "НАПИСАТЬ В ПОДДЕРЖКУ";
+
+// MARK: -  Menu
+"sidemenu.main" = "Главная";
+"sidemenu.cart" = "Корзина";
+"sidemenu.catalog" = "Каталог товаров";
+"sidemenu.pharmacy" = "Аптеки";
+"sidemenu.discount" = "Акции";
+"sidemenu.card" = "Карта покупателя";
+"sidemenu.profile" = "Профиль";
+"sidemenu.about" = "О компании";
+"sidemenu.feedback" = "Обратная связь";
+
+// MARK: -  Main screen
+"main.search.product" = "Поиск товаров";
+"main.search.pharmacy" = "Найти аптеку";
+
+// MARK: -  Stock screen
+"stock.title" = "Акции";
+
+// MARK: -  Stock details screen
+"stock.details.title" = "Акция";
+"stock.details.date.title" = "Сроки проведения акции";
+"stock.details.dateFrom.title" = "Начало";
+"stock.details.dateTo.title" = "Конец";
+"stock.details.condition.title" = "Условия акции:";
+"stock.details.share.pharmacies.title" = "Участвующие аптеки";
+
+// MARK: -  Catalog screen
+"catalog.title" = "Каталог товаров";
+
+// MARK: -  Error message
+"sidemenu.deeplink.error" = "Приложение %@ не установлено. Установить из AppStore?";

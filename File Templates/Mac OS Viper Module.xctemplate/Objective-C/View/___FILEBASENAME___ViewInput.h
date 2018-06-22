@@ -10,5 +10,13 @@
 
 @protocol ___VARIABLE_viperModuleName:identifier___ViewInput <NSObject>
 
+- (void)setTitle:(NSString*)title;
+
+- (void)showAlertWithTitle:(NSString*)alertTitle message:(NSString*)message;
+
+- (void)showActivityIndicator;
+
+- (void)hideActivityIndicator;
+
 @end
 

@@ -7,6 +7,7 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
+#import <Cocoa/Cocoa.h>
 #import <Foundation/Foundation.h>
 
 @interface ___VARIABLE_viperModuleName:identifier___Assembly : NSObject

@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Stolichki
+
+  Created by Oleg Tretyakov on 12/25/17.
+  Copyright © 2017 Inostudio. All rights reserved.
+*/
+
+// Menu
+"mainScreen" = "Главная";
+"bascket" = "Корзина";
+"catalog" = "Каталог товаров";
+
+// Menu - information
+"information" = "СПРАВОЧНАЯ";
+"viberInformation" = "VIBER";
+"whatsappInformation" = "WTATSAPP";

@@ -9,11 +9,12 @@
 #import "___VARIABLE_viperModuleName:identifier___Controller.h"
 #import "___VARIABLE_viperModuleName:identifier___ViewOutput.h"
 
-@interface ___VARIABLE_viperModuleName:identifier___Controller()
-
-@end
-
 @implementation ___VARIABLE_viperModuleName:identifier___Controller
 
+- (void)setWindow:(NSWindow*)window {
+    [super setWindow:window];
+
+	[self.output setupView];
+}
 
 @end
