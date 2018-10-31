@@ -21,7 +21,7 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>protocolName</string>
+			<string>productName</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
@@ -32,14 +32,6 @@
 			<string>text</string>
 			<key>NotPersisted</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_protocolName___</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Type</key>
-			<string>static</string>
 		</dict>
 		<dict>
 			<key>Identifier</key>
@@ -91,7 +83,7 @@
 		</dict>
 		<dict>
 			<key>Identifier</key>
-			<string>IMPLPREFIX</string>
+			<string>implementationPrefix</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
