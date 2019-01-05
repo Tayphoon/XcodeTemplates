@@ -9,12 +9,11 @@
 import Cocoa
 
 /**
- *  View 
- *	
+ *  View
+ *
  */
+class ___VARIABLE_viperModuleName:identifier___Controller: NSWindowController {
 
-class ___VARIABLE_viperModuleName:identifier___Controller: NSWindowController, ___VARIABLE_viperModuleName:identifier___ViewInput {
-	
 	var output: ___VARIABLE_viperModuleName:identifier___ViewOutput?
 
     override var window: NSWindow? {
@@ -24,3 +23,5 @@ class ___VARIABLE_viperModuleName:identifier___Controller: NSWindowController, _
         }
     }
 }
+
+extension ___VARIABLE_viperModuleName:identifier___Controller:  ___VARIABLE_viperModuleName:identifier___ViewInput {

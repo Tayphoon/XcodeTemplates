@@ -10,9 +10,8 @@ import Cocoa
 
 /**
  *  Assembly
- *	
+ *
  */
-
 class ___VARIABLE_viperModuleName:identifier___Assembly {
 
     static func createModule() -> NSWindowController {
@@ -20,17 +19,15 @@ class ___VARIABLE_viperModuleName:identifier___Assembly {
         let interactor = ___VARIABLE_viperModuleName:identifier___Interactor()
         let presenter = ___VARIABLE_viperModuleName:identifier___Presenter()
         let router = ___VARIABLE_viperModuleName:identifier___Router()
-        
+
         view.output = presenter
-        
+
         presenter.view = view
         presenter.router = router
         presenter.interactor = interactor
-        
-        interactor.output = presenter
-        
+
         router.transitionHandler = view
-        
+
         return view
     }
 }

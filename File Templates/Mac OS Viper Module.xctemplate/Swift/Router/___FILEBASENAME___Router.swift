@@ -9,10 +9,13 @@
 import Foundation
 
 /**
- *  Router 
- *	
+ *  Router
+ *
  */
-
-class ___VARIABLE_viperModuleName:identifier___Router: ___VARIABLE_viperModuleName:identifier___RouterInput {
+class ___VARIABLE_viperModuleName:identifier___Router {
     var transitionHandler: ViperModuleTransitionHandler?
+}
+
+extension ___VARIABLE_viperModuleName:identifier___Router: ___VARIABLE_viperModuleName:identifier___RouterInput {
+
 }

@@ -9,17 +9,19 @@
 import Foundation
 
 /**
- *  Presenter 
- *	
+ *  Presenter
+ *
  */
-
-class ___VARIABLE_viperModuleName:identifier___Presenter: ___VARIABLE_viperModuleName:identifier___ViewOutput, ___VARIABLE_viperModuleName:identifier___InteractorOutput {
+class ___VARIABLE_viperModuleName:identifier___Presenter {
 
 	weak var view: ___VARIABLE_viperModuleName:identifier___ViewInput?
 	var interactor: ___VARIABLE_viperModuleName:identifier___InteractorInput?
 	var router: ___VARIABLE_viperModuleName:identifier___RouterInput?
+}
 
-	internal func setupView() {
-		
-	}
+extension ___VARIABLE_viperModuleName:identifier___Presenter: ___VARIABLE_viperModuleName:identifier___ViewOutput {
+
+  internal func setupView() {
+
+  }
 }
