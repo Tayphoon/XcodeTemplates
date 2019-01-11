@@ -10,9 +10,7 @@
 
 #import "TCCollectionCellObject.h"
 
-extern NSString * const ___FILEBASENAMEASIDENTIFIER___CellReuseIdentifier;
-
-@interface ___FILEBASENAMEASIDENTIFIER___CellObject : NSObject <TCCollectionCellObject>
+@interface ___VARIABLE_cellClass:identifier___CellObject : NSObject<TCCollectionCellObject>
 
 @property (nonatomic, strong) id item;
 

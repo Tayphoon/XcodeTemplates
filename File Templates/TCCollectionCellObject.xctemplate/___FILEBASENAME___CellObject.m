@@ -6,19 +6,17 @@
 //___COPYRIGHT___
 //
 
-#import "___FILEBASENAME___CellObject.h"
-#import "___FILEBASENAMEASIDENTIFIER___Cell.h"
+#import "___VARIABLE_cellClass:identifier___CellObject.h"
+#import "___VARIABLE_cellClass:identifier___Cell.h"
 
-NSString * const ___FILEBASENAMEASIDENTIFIER___CellReuseIdentifier = @"___FILEBASENAMEASIDENTIFIER___CellReuseIdentifier";
-
-@implementation ___FILEBASENAMEASIDENTIFIER___CellObject
+@implementation ___VARIABLE_cellClass:identifier___CellObject
 
 - (NSString*)cellReuseIdentifier {
-    return ___FILEBASENAMEASIDENTIFIER___CellReuseIdentifier;
+    return NSStringFromClass([self cellClass]);
 }
 
 - (Class)cellClass {
-    return [___FILEBASENAMEASIDENTIFIER___Cell class];
+    return [___VARIABLE_cellClass:identifier___Cell class];
 }
 
 @end
