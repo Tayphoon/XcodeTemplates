@@ -21,8 +21,6 @@
     ___VARIABLE_viperModuleName:identifier___Presenter * presenter = [[___VARIABLE_viperModuleName:identifier___Presenter alloc] init];
     
     router.transitionHandler = controller;
-
-    interactor.output = presenter;
     
     presenter.view = controller;
     presenter.interactor = interactor;

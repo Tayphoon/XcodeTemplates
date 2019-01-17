@@ -7,14 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #import "___VARIABLE_viperModuleName:identifier___ViewOutput.h"
-#import "___VARIABLE_viperModuleName:identifier___InteractorOutput.h"
 
 @protocol ___VARIABLE_viperModuleName:identifier___ViewInput;
 @protocol ___VARIABLE_viperModuleName:identifier___InteractorInput;
 @protocol ___VARIABLE_viperModuleName:identifier___RouterInput;
 
-@interface ___VARIABLE_viperModuleName:identifier___Presenter : NSObject <___VARIABLE_viperModuleName:identifier___ViewOutput, ___VARIABLE_viperModuleName:identifier___InteractorOutput>
+@interface ___VARIABLE_viperModuleName:identifier___Presenter : NSObject <___VARIABLE_viperModuleName:identifier___ViewOutput>
 
 @property (nonatomic, weak)   id<___VARIABLE_viperModuleName:identifier___ViewInput> view;
 @property (nonatomic, strong) id<___VARIABLE_viperModuleName:identifier___InteractorInput> interactor;

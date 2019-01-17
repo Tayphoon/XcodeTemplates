@@ -14,9 +14,5 @@
 
 - (void)showAlertWithTitle:(NSString*)alertTitle message:(NSString*)message;
 
-- (void)showActivityIndicator;
-
-- (void)hideActivityIndicator;
-
 @end
 

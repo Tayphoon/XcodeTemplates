@@ -11,8 +11,6 @@
 
 @interface ___VARIABLE_viperModuleName:identifier___Controller()
 
-@property (nonatomic, readonly) UIActivityIndicatorView * activityIndicator;
-
 @end
 
 @implementation ___VARIABLE_viperModuleName:identifier___Controller
@@ -20,13 +18,6 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
     
-    _activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    self.activityIndicator.hidesWhenStopped = YES;
-    self.activityIndicator.backgroundColor = [UIColor clearColor];
-    self.activityIndicator.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.view addSubview:self.activityIndicator];
-    [self configureActivityIndicatorLayoutConstraints];
-
 	[self.output setupView];
 }
 
@@ -42,23 +33,8 @@
     [self presentViewController:alertController animated:YES completion:nil];
 }
 
-- (void)showActivityIndicator {
-    [self.activityIndicator startAnimating];
-}
-
-- (void)hideActivityIndicator {
-    [self.activityIndicator stopAnimating];
-}
-
 #pragma mark - Private methods
 
 #pragma mark - Layout
-
-- (void)configureActivityIndicatorLayoutConstraints {
-    [self.activityIndicator.topAnchor constraintEqualToAnchor:self.view.topAnchor].active = YES;
-    [self.activityIndicator.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor].active = YES;
-    [self.activityIndicator.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor].active = YES;
-    [self.activityIndicator.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor].active = YES;
-}
 
 @end

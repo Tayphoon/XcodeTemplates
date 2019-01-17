@@ -7,7 +7,6 @@
 //
 
 #import "___VARIABLE_viperModuleName:identifier___Interactor.h"
-#import "___VARIABLE_viperModuleName:identifier___InteractorOutput.h"
 
 @implementation ___VARIABLE_viperModuleName:identifier___Interactor
 

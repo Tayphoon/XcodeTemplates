@@ -23,6 +23,4 @@
 
 }
 
-#pragma mark - ___VARIABLE_viperModuleName:identifier___InteractorOutput
-
 @end
