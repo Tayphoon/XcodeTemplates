@@ -16,12 +16,13 @@ class ___VARIABLE_viperModuleName:identifier___Controller: NSWindowController {
 
 	var output: ___VARIABLE_viperModuleName:identifier___ViewOutput?
 
-    override var window: NSWindow? {
-        willSet {
-
-            output?.setupView()
-        }
+    override func showWindow(_ sender: Any?) {
+        super.showWindow(sender)
+        
+        output?.setupView()
     }
 }
 
 extension ___VARIABLE_viperModuleName:identifier___Controller:  ___VARIABLE_viperModuleName:identifier___ViewInput {
+
+}
