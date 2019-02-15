@@ -19,7 +19,7 @@ class ___VARIABLE_viperModuleName:identifier___Presenter: ___VARIABLE_viperModul
 	var interactor: ___VARIABLE_viperModuleName:identifier___InteractorInput?
 	var router: ___VARIABLE_viperModuleName:identifier___RouterInput?
 
-	internal func setupView() {
+	func setupView() {
 		
 	}
 }
