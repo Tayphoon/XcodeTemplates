@@ -21,7 +21,7 @@ class ___VARIABLE_viperModuleName:identifier___Presenter {
 
 extension ___VARIABLE_viperModuleName:identifier___Presenter: ___VARIABLE_viperModuleName:identifier___ViewOutput {
 
-  internal func setupView() {
+  func setupView() {
 
   }
 }
