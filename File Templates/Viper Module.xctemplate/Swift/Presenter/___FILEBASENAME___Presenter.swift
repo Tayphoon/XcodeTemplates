@@ -12,7 +12,6 @@ import Foundation
  *  Presenter 
  *	
  */
-
 class ___VARIABLE_viperModuleName:identifier___Presenter {
 
 	weak var view: ___VARIABLE_viperModuleName:identifier___ViewInput?
