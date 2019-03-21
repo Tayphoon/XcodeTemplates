@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ___VARIABLE_viperModuleName:identifier___ViewInput : class {
+protocol ___VARIABLE_viperModuleName:identifier___ViewInput: class {
     
 }

@@ -9,10 +9,9 @@
 import UIKit
 
 /**
- *  Interactor 
+ *  Assembly
  *	
  */
-
 class ___VARIABLE_viperModuleName:identifier___Assembly {
 
     static func createModule() -> UIViewController {

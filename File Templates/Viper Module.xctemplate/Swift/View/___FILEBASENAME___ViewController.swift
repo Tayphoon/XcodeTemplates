@@ -13,7 +13,7 @@ import UIKit
  *	
  */
 
-class ___VARIABLE_viperModuleName:identifier___ViewController: UIViewController, ___VARIABLE_viperModuleName:identifier___ViewInput {
+class ___VARIABLE_viperModuleName:identifier___ViewController: UIViewController {
 	
 	var output: ___VARIABLE_viperModuleName:identifier___ViewOutput?
 
@@ -22,4 +22,8 @@ class ___VARIABLE_viperModuleName:identifier___ViewController: UIViewController,
         
         output?.setupView()
     }
+}
+
+extension ___VARIABLE_viperModuleName:identifier___ViewController: ___VARIABLE_viperModuleName:identifier___ViewInput {
+
 }

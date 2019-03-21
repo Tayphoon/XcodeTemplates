@@ -12,9 +12,10 @@ import Foundation
  *  Interactor 
  *	
  */
+class ___VARIABLE_viperModuleName:identifier___Interactor {
 
-class ___VARIABLE_viperModuleName:identifier___Interactor: ___VARIABLE_viperModuleName:identifier___InteractorInput {
+}
 
-	weak var output: ___VARIABLE_viperModuleName:identifier___InteractorOutput?
-
+extension ___VARIABLE_viperModuleName:identifier___Interactor: ___VARIABLE_viperModuleName:identifier___InteractorInput {
+    
 }
