@@ -26,8 +26,6 @@ class ___VARIABLE_viperModuleName:identifier___Assembly {
         presenter.router = router
         presenter.interactor = interactor
         
-        interactor.output = presenter
-        
         router.transitionHandler = view
         
         return view
