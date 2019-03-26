@@ -13,7 +13,8 @@ import Foundation
  *
  */
 class ___VARIABLE_viperModuleName:identifier___Router {
-    var transitionHandler: ViperModuleTransitionHandler?
+    
+    weak var transitionHandler: ViperModuleTransitionHandler?
 }
 
 extension ___VARIABLE_viperModuleName:identifier___Router: ___VARIABLE_viperModuleName:identifier___RouterInput {
